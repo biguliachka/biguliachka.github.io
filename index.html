@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
+</head>
+
+<body>
+    <header>
+        <h1>Модель вищої освіти в Україні</h1>
+    </header>
+    <content>
+        <p>Підготовка фахівців з вищою освітою здійснюється за відповідними освітніми програмами на таких рівнях вищої
+            освіти:</p>
+        <div class="block">
+            <div class="level lv1"><span>Початковий рівень (короткий цикл) вищої освіти</span>
+                <button onclick="moreLv1()">Дізнатись детальніше...</button>
+            </div>
+            <a>&#10143</a>
+            <div class="level lv2"> <span>Перший (бакалаврський) рівень</span>
+                <button onclick="moreLv2()">Дізнатись детальніше...</button>
+            </div>
+            <a>&#10143</a>
+            <div class="level lv3"> <span>Другий (магістерський) рівень</span>
+                <button onclick="moreLv3()">Дізнатись детальніше...</button>
+            </div>
+            <a>&#10143</a>
+            <div class="level lv4"><span> Третій (освітньо-науковий/освітньо-творчий) рівень</span>
+                <button onclick="moreLv4()">Дізнатись детальніше...</button>
+            </div>
+        </div>
+        <p>В Україні діють заклади вищої освіти таких типів:</p>
+        <div class="block2">
+            <div class="inst i1"><span>Університет </span>
+                <button onclick="moreInst1()">Більше...</button>
+            </div>
+            <div class="inst i2"> <span>Академія, інститут</span>
+                <button onclick="moreInst2()">Більше...</button>
+            </div>
+            <div class="inst i3"> <span>Коледж </span>
+                <button onclick="moreInst3()">Більше...</button>
+            </div>
+           
+        </div>
+    </content>
+
+    <div class="modal-container">
+        <div class="window"> 
+            <div class="image"></div>
+            <div class="text">
+            </div>
+        </div>
+        <div class="close" onclick="closeWindow()"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

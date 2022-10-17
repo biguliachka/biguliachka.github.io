@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 20px;
+    text-align: center;
+    color: mediumpurple;
+}
+content p {
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+.block,
+.block2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+.level {
+    padding: 60px 10px;
+    width: 300px;
+    height: 200px;
+    background-color: mediumpurple;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.block button{
+    width: 200px;  
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+button:hover{
+     background-color: rgb(164, 151, 189);
+}
+.lv1 button ,
+.lv4 button{
+margin-top: 30px;
+}
+.lv2 button ,
+.lv3 button{
+margin-top: 47px;
+}
+
+content a{
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.541);
+    z-index: -1;
+}
+
+
+.window {
+    padding: 50px 30px;
+    margin: 180px auto;
+    border: 1px solid gainsboro;
+    width: 700px;
+    height: 300px;
+    background-color: white;
+    display: none;
+}
+
+.close {
+    position: absolute;
+    left: 982px;
+    top: 200px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.3;
+    display:none;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 20px;
+    width: 2px;
+    background-color: #333;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+
+  .inst{
+    padding-top: 70px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid mediumpurple;
+    border-radius: 100%;   
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+  }
+
+  .inst button{
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    background-color:  mediumpurple;
+    border-radius: 3px;   
+   margin-top: 20px;
+    text-align: center;
+  }
+
+.inst span {
+ font-size: large;
+}
